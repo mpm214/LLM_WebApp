@@ -1,0 +1,2 @@
+In the document visualization we show the results for your query, mapped in real time to a two dimensional semantic space. Position and links reflect similarity, color reflects our clustering, and the size of the nodes corresponds to the chosen ranking score. When you press 'Explain clusters', we generate cluster summary nodes, powered by by large language models (OpenAI API). By default we show the top 50 documents. To visualize up to 1200 documents click ‘Explore More’. To increase the screen size of the visualization, use the [Full Screen] icon of the VOS Viewer.
+

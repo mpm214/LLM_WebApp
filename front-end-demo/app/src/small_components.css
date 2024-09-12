@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'alliance';
+  src: url('./assets/alliance2.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.component {
+  width: 100%;
+  max-width: 68rem;
+  height: fit-content;
+  padding: 2rem 3rem;
+  margin: 1rem;
+  background: #FFFFFF;
+  border-radius: 10px;
+  border: 1px solid #DFDFDF;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.small-text-content {
+  width: 300px;
+  color: #303030;
+  font-size: 12px;
+  font-family: 'alliance';
+  font-weight: 300;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+.info-group {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.info-item {
+  color: #1682E3;
+  font-family: 'alliance';
+  font-weight: 300;
+  line-height: 30px;
+  word-wrap: break-word;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.page-count, .cited-by, .match {
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.page-count span, .cited-by span, .match span {
+  color: #303030;
+  padding-left: .5rem;
+  padding-right: .5rem;
+}
+
+.page-count span:last-child, .cited-by span:last-child, .match span:last-child{
+  color: #1682E3;
+}
+
+.expand-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
